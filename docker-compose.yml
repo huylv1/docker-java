@@ -1,0 +1,8 @@
+version: '2'
+services:
+  mb-fake-api:
+    build: .
+    image: mb-fake-api:v1
+    container_name: mb-fake-api
+    ports:
+      - "8088:8088"    
